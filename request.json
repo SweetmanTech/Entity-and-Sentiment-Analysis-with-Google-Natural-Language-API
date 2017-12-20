@@ -1,0 +1,17 @@
+{
+  "requests": [
+      {
+        "image": {
+          "source": {
+              "gcsImageUri": "gs://image-bucket-3456/donut.png"
+          }
+        },
+        "features": [
+          {
+            "type": "LABEL_DETECTION",
+            "maxResults": 10
+          }
+        ]
+      }
+  ]
+}
