@@ -17,7 +17,7 @@ Curl request can be used to with json payload including Image URL string or Goog
 curl "https://language.googleapis.com/v1/documents:analyzeEntities?key=${API_KEY}" \
   -s -X POST -H "Content-Type: application/json" --data-binary @request.json
 ```
-4. NLP - Analyze Sentiment
+4. NLP - Analyze Sentimentd
 ```
 curl "https://language.googleapis.com/v1/documents:analyzeSentiment?key=${API_KEY}" \
   -s -X POST -H "Content-Type: application/json" --data-binary @sentiment-request.json
